@@ -1,0 +1,38 @@
+{
+  "siteTitle": "滑动变脸😀",
+  "states": {
+    "normal": {
+      "face": { 
+        "happiness": 0.9,
+        "derp": 1,
+        "px": 0.5,
+        "py": 0.5 
+      },
+      "ui": {
+        "titleText": "顶部标题",
+        "subtitleText": "副标题",
+        "btnHappyText": "左窗口",
+        "btnUnhappyText": "右窗口"
+      }
+    },
+    "happy": {
+      "ui": {
+        "btnHappyText": "窗口1",
+        "btnUnhappyText": "窗口2",
+        "titleText": "感谢支持",
+        "subtitleText": "请期待后续更新"
+      }
+    },
+    "unhappy": {
+      "ui": {
+        "btnHappyText": "窗口3",
+        "btnUnhappyText": "窗口4",
+        "titleText": "顶部标题2",
+        "subtitleText": "感谢您的使用"
+      }
+    }
+  },
+  "settings": {
+    "maxUnhappyCount": 3
+  }
+}
